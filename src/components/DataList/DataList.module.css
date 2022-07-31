@@ -1,0 +1,22 @@
+.listWrapper {
+	width: 70%;
+	margin: 0 auto;
+	min-height: 100vh;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.loaderBlock {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	justify-content: center;
+}
+.messageBox {
+	padding: 3px 16px;
+	margin-bottom: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 15px;
+	font-weight: 500;
+	color: white;
+}

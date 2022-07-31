@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: aquamarine;
+}
+body::-webkit-scrollbar {
+	background-color: aquamarine;
+	/* border-left: 1px solid #000; */
+	width: 10px;
+	padding-left: 1px;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #000;
+	/* border-radius: 4px; */
+}
