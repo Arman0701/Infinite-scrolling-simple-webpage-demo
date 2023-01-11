@@ -5,7 +5,7 @@
 ### After that when user scrolls to bottom, page was sending a new request to server for getting new data.
 ### This app is adaptive for mobile phones and tablets.
 
-#### Project also deployed using Firebase Hosting service. It's available on [inf-scroll.web.app](inf-scroll.web.app).
+#### Project also deployed using Firebase Hosting service. It's available on [inf-scroll.web.app](https://inf-scroll.web.app/).
 
 ---
 ### Screenshots
