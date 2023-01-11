@@ -1,4 +1,4 @@
-import style from "./Loader.module.css";
+import style from "./Loader.module.scss";
 import loaderImage from '../../assets/images/loader-animated.gif';
 
 export default function Loader({ trigger }) {

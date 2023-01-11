@@ -1,4 +1,4 @@
-import style from './TodoItem.module.css';
+import style from './TodoItem.module.scss';
 
 export default function TodoItem({item}) {
 	function inputChangeHandler() {
@@ -10,7 +10,7 @@ export default function TodoItem({item}) {
 			<input type="checkbox" checked={item.checked ? "checked" : ""} onChange={inputChangeHandler} />
 			<p className={style.title}>{item.title}</p>
 			<p className={style.itemID}>ID: {item.id}</p>
-			<p>User ID: {item.userId}</p>
+			<p className={style.userID}>User ID: {item.userId}</p>
 		</div>
 	)
 }

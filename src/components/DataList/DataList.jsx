@@ -1,4 +1,4 @@
-import style from "./DataList.module.css";
+import style from "./DataList.module.scss";
 import Loader from "../Loader";
 import { useEffect, useState } from "react";
 import TodoItem from "../TodoItem/TodoItem";
